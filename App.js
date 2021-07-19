@@ -11,6 +11,7 @@ const STATUS = {
   CANCELLED: 2,
 }
 export default function App() {
+  console.log('test git');
   const [focusSubject, setFocusSubject] = useState(null);
   const [focusHistory, setFocusHistory] = useState([]);
   
